@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+//Importando as variaves de estilização
+@import './app/dist/scss/variables.scss';
+//Importando a fonte do google
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    font-weight: 400;
+  }
+  
+  body{
+    background: $primary-background-color;
+  }
+   
+  ul{
+    list-style: none; //Removendo o estilo padrão da lista
+  }
+  
+  textarea:focus, input:focus, button{
+    outline: none;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+  
+  //Classes
+  .container{
+    width: 600px;
+    margin: 50px auto;
+  }

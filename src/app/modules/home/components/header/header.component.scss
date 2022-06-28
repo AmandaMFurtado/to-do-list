@@ -1,0 +1,16 @@
+//Importando do arquivo de variaveis
+@import '../../../../dist/scss/variables.scss';
+
+h1{
+    width: 100%;
+    padding: 15px 0;
+
+    border-radius: 5px;
+  
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: $secondary-text-color;
+  
+    background-color: $tertiary-background-color;
+  }
